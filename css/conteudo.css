@@ -1,0 +1,85 @@
+.conteudo {
+  width: 100%;
+  max-width: 540px;
+  padding: 24px;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.informacoes img {
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.informacoes h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.informacoes input {
+  font: 400 1.2rem/1.5 "JetBrains Mono", monospace;
+  background: #2A3E59;
+  color: #DCEBFA;
+  border: 1px solid #325A73;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.opcoes {
+  background: #2A3E59;
+  padding: 12px;
+  border: 1px solid #325A73;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.opcoes div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.opcoes div {
+  margin-bottom: 4px;
+}
+
+.opcoes div:last-child {
+  margin-bottom: 0;
+}
+
+.opcoes div:first-child input {
+  font: 400 1rem/1.2 "JetBrains Mono", monospace;
+  border-radius: 4px;
+  width: 60px;
+  padding: 4px;
+  margin-bottom: 4px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 800px) {
+  .conteudo {
+    max-width: 450px;
+  }
+  .informacoes img {
+    max-height: 150px;
+  }
+  .informacoes h1 {
+    font: 600 1.8rem/1.6 "JetBrains Mono", monospace;
+  }
+}
+
+@media (max-width: 600px) {
+  .conteudo {
+    max-width: 390px;
+  }
+}

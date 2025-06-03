@@ -15,34 +15,34 @@
 <body>
   <div class="container">
     <main class="conteudo">
-      <div class="infomacoes">
+      <div class="informacoes">
         <img src="/img/cadeado.svg" alt="Ícone de um cadeado">
-        <h1>Gerador de Senhas</h1>
-        <input type="text" name="senha" id="senha" readonly>
+        <h1 class="font-1-g">Gerador de Senhas</h1>
+        <input type="text" name="senha" id="senha">
       </div>
       <div class="opcoes">
         <div>
-          <input type="number" name="quantidade" id="quantidade">
-          <label for="quantidade">Quantidade de caracteres</label>
+          <input type="number" name="quantidade" id="quantidade" min="4" max="20" value="8">
+          <label class="font-2-p" for="quantidade">Quantidade de caracteres</label>
         </div>
         <div>
           <input type="checkbox" name="maiuscula" id="maiuscula">
-          <label for="maiuscula">Incluir letra maiúscula</label>
+          <label class="font-2-p" for="maiuscula">Incluir letra maiúscula</label>
         </div>
         <div>
           <input type="checkbox" name="minuscula" id="minuscula">
-          <label for="maiuscula">Incluir letra minúscula</label>
+          <label class="font-2-p" for="maiuscula">Incluir letra minúscula</label>
         </div>
         <div>
           <input type="checkbox" name="numero" id="numero">
-          <label for="maiuscula">Incluir número</label>
+          <label class="font-2-p" for="maiuscula">Incluir número</label>
         </div>
         <div>
           <input type="checkbox" name="especial" id="especial">
-          <label for="maiuscula">Incluir caractere especial</label>
+          <label class="font-2-p" for="maiuscula">Incluir caractere especial</label>
         </div>
       </div>
-      <button>Gerar senha</button>
+      <button class="btn">Gerar senha</button>
     </main>
   </div>
 </body>

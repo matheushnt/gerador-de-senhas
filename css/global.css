@@ -10,7 +10,7 @@ html, body {
 
 body {
   font-family: "JetBrains Mono", Arial, Helvetica, sans-serif;
-  background: #283746;
+  background: linear-gradient(135deg, #385273, #283746);
   color: #DCEBFA;
 }
 

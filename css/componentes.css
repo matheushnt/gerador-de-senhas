@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.btn {
+  display: inline-block;
+  background: #455EA8;
+  color: #DCEBFA;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font: 600 1.125rem/1.35 "Roboto", sans-serif;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: 300ms;
+}
+
+.btn:hover {
+  background: #334C99;
+}
