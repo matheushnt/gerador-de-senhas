@@ -34,6 +34,20 @@
   margin-bottom: 16px;
 }
 
+.senha-container {
+  position: relative;
+  width: 100%;
+}
+
+#copiar-senha {
+  position: absolute;
+  padding: 10px;
+  right: 20px;
+  top: 10px;
+  color: #DCEBFA;
+  cursor: pointer;
+}
+
 .opcoes {
   background: #2A3E59;
   padding: 12px;

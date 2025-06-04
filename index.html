@@ -18,7 +18,10 @@
       <div class="informacoes">
         <img src="/img/cadeado.svg" alt="Ícone de um cadeado">
         <h1 class="font-1-g">Gerador de Senhas</h1>
-        <input type="text" name="senha" id="senha">
+        <div class="senha-container">
+          <input type="text" name="senha" id="senha" readonly>
+          <i id="copiar-senha" class="fas fa-copy" data-clipboard-target="#senha"></i>
+        </div>
       </div>
       <div class="opcoes">
         <div>
@@ -45,5 +48,8 @@
       <button class="btn">Gerar senha</button>
     </main>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+  <script src="/js/gerador-senha.js"></script>
+  <script src="/js/clipboard.js"></script>
 </body>
 </html>
