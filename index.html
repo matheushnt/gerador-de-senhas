@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gerador de senhas simples e fácil de usar.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="img/cadeado.svg" type="image/svg+xml">
+  <link rel="preload" href="css/style.min.css" as="style">
+  <link rel="stylesheet" href="css/style.min.css">
 
   <title>Gerador de Senhas</title>
 </head>
@@ -16,11 +19,13 @@
   <div class="container">
     <main class="conteudo">
       <div class="informacoes">
-        <img src="/img/cadeado.svg" alt="Ícone de um cadeado">
+        <img src="img/cadeado.svg" alt="Ícone de um cadeado">
         <h1 class="font-1-g">Gerador de Senhas</h1>
         <div class="senha-container">
           <input type="text" name="senha" id="senha" readonly>
-          <i id="copiar-senha" class="fas fa-copy" data-clipboard-target="#senha"></i>
+          <button id="copiar-senha" aria-label="Copiar senha" data-clipboard-target="#senha">
+            <i class="fas fa-copy"></i>
+          </button>
         </div>
       </div>
       <div class="opcoes">
@@ -49,7 +54,7 @@
     </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
-  <script src="/js/gerador-senha.js"></script>
-  <script src="/js/clipboard.js"></script>
+  <script src="js/gerador-senha.js" defer></script>
+  <script src="js/clipboard.js" defer></script>
 </body>
 </html>
