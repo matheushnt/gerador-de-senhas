@@ -30,7 +30,11 @@ Um simples e funcional gerador de senhas feito com HTML, CSS e JavaScript puro. 
 ## Como utilizar localmente
 
 1. Clone o repositório:
-`git clone https://github.com/matheushnt/gerador-de-senhas.git`
+```
+git clone https://github.com/matheushnt/gerador-de-senhas.git
+```
 2. Acesse a pasta:
-`cd gerador-de-senhas`
+```
+cd gerador-de-senhas
+```
 3. Abra o `index.html` no navegador.
